@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:background="#c5ecf9"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/view"
+        >
+
+        <include
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            layout="@layout/toolbar_layout"
+            />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_alignParentLeft="true"
+                        android:src="@drawable/logo"/>
+                </TableRow>
+
+            </TableLayout>
+
+
+            <TextView
+                android:layout_marginBottom="12dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:textColor="#000"
+                android:textSize="24sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/uuu"/>
+
+            <RadioGroup
+                android:layout_marginBottom="12dp"
+                android:id="@+id/GBcd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <RadioButton
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:id="@+id/a31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kel31K" />
+
+                <RadioButton
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:id="@+id/a32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kel32K" />
+
+                <RadioButton
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:id="@+id/a33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kel33K" />
+
+                <RadioButton
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:id="@+id/a34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kel34K" />
+
+                <RadioButton
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:id="@+id/a36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kel36K" />
+
+                <RadioButton
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:id="@+id/a38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kel38K" />
+
+                <RadioButton
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:id="@+id/a39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kel39K" />
+
+                <RadioButton
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:id="@+id/a40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kel40K" />
+
+                <RadioButton
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:id="@+id/a41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kel41K" />
+
+                <RadioButton
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:id="@+id/a42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kel42K" />
+
+                <RadioButton
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:id="@+id/a10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kel10K" />
+
+                <RadioButton
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:id="@+id/a444"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kel44K" />
+
+            </RadioGroup>
+
+
+            <Button
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:background="@color/colorPrimary"
+                android:id="@+id/Jawabcd"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="@string/J1" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

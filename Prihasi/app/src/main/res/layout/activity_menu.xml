@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/view"
+        >
+
+        <include
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            layout="@layout/toolbar_layout"
+            />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:columnCount="2"
+                app:rowCount="2"
+                app:orientation="horizontal"
+                android:background="#fbfdfd">
+
+
+                <FrameLayout
+                    android:id="@+id/Konsultasi"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1"
+                    android:background="@drawable/men2">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_centerInParent="true"
+                            android:id="@+id/kon1"
+                            android:src="@drawable/doctor" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:textSize="20sp"
+                            android:textColor="#050505"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/kon1"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/konsultasi1"
+                            android:textStyle="bold"/>
+                    </RelativeLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/penyakitIbu"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1"
+                    android:background="@drawable/men2">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_centerInParent="true"
+                            android:id="@+id/pen1"
+                            android:src="@drawable/seo1"/>
+                        <TextView
+                            android:id="@+id/pen2"
+                            android:layout_width="wrap_content"
+                            android:layout_marginTop="80dp"
+                            android:textSize="20sp"
+                            android:textColor="#000000"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/pen1"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/penyakit1"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:textSize="20sp"
+                            android:textColor="#000000"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/pen2"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/ibu_hamil1"
+                            android:textStyle="bold"/>
+                    </RelativeLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/TipsMelahirkan"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1"
+                    android:background="@drawable/men2">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_centerInParent="true"
+                            android:id="@+id/tipsmel"
+                            android:src="@drawable/apple"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tipsmel"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/tips_melahirkan"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/Merawat1"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1"
+                    android:background="@drawable/men2">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_centerInParent="true"
+                            android:id="@+id/Merawat"
+                            android:src="@drawable/apple1"/>
+
+                        <TextView
+                            android:id="@+id/merawat2"
+                            android:layout_width="wrap_content"
+                            android:layout_marginTop="80dp"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/Merawat"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/tips_merawat1"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/merawat2"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/bayi1"
+                            android:textStyle="bold"/>
+                    </RelativeLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/MerawatKandungan"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1"
+                    android:background="@drawable/men2">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_centerInParent="true"
+                            android:id="@+id/kandungan"
+                            android:src="@drawable/apple2"/>
+
+                        <TextView
+                            android:id="@+id/kandungan1"
+                            android:layout_width="wrap_content"
+                            android:layout_marginTop="80dp"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/kandungan"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/tips_merawat1"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/kandungan1"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/kandungan1"
+                            android:textStyle="bold"/>
+                    </RelativeLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/penyakit"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1"
+                    android:background="@drawable/men2">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_centerInParent="true"
+                            android:id="@+id/penyakit1"
+                            android:src="@drawable/book"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:textSize="20sp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/penyakit1"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="#000000"
+                            android:text="@string/e_learning1"
+                            android:textStyle="bold"/>
+                    </RelativeLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/profile"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1"
+                    android:background="@drawable/men2">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_centerInParent="true"
+                            android:id="@+id/profile1"
+                            android:src="@drawable/man"/>
+
+                        <TextView
+                            android:layout_marginTop="80dp"
+                            android:layout_width="wrap_content"
+                            android:textSize="20sp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/profile1"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="#000000"
+                            android:text="@string/profile_developer"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_marginTop="115dp"
+                            android:layout_width="wrap_content"
+                            android:textSize="20sp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/profile1"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="#000000"
+                            android:text="@string/profiledeveloper1"
+                            android:textStyle="bold"/>
+                    </RelativeLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/bantuan"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1"
+                    android:background="@drawable/men2">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_centerInParent="true"
+                            android:id="@+id/bantuan1"
+                            android:src="@drawable/info"/>
+
+                        <TextView
+                            android:layout_marginTop="110dp"
+                            android:layout_width="wrap_content"
+                            android:textSize="20sp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/bantuan1"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="#000000"
+                            android:text="@string/bantuan1"
+                            android:textStyle="bold"/>
+                    </RelativeLayout>
+                </FrameLayout>
+
+            </android.support.v7.widget.GridLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

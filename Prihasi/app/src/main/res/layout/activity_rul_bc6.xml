@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:background="#c5ecf9"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/view"
+        >
+
+        <include
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            layout="@layout/toolbar_layout"
+            />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_alignParentLeft="true"
+                        android:src="@drawable/logo"/>
+                </TableRow>
+
+            </TableLayout>
+
+
+            <TextView
+                android:layout_marginBottom="12dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:textColor="#000"
+                android:textSize="24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/uu"/>
+
+            <CheckBox
+                android:id="@+id/kel13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:text="@string/kel13" />
+
+            <CheckBox
+                android:id="@+id/kel14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:text="@string/kel14" />
+
+            <CheckBox
+                android:id="@+id/kel15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:text="@string/kel15" />
+
+            <CheckBox
+                android:id="@+id/kel27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:text="@string/kel27" />
+
+            <CheckBox
+                android:id="@+id/kel28"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:text="@string/kel28" />
+
+
+            <Button
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="#ffffff"
+                android:text="@string/deteksi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btnClickd122338899"
+                />
+
+            <Button
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="#ffffff"
+                android:text="@string/deteksi_ulang"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:id="@+id/jawabab09"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hehe999801"
+                android:text=""/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

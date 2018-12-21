@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.developerputra.prihasi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Menu"
+            android:label="Menu Utama" />
+        <activity
+            android:name=".Bantuan"
+            android:label="Bantuan"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".PencarianPenyakit"
+            android:label="Penyakit Ibu Hamil"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".Konsultasi"
+            android:label="Konsultasi"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".TipsMelahirkan"
+            android:label="Tips Melahirkan"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".TipsMerawatBayi"
+            android:label="Tips Merawat Bayi"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".Elearning"
+            android:label="E-Learning"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".Pengembang"
+            android:label="Profil Pengembang"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".TipsMerawatKandungan"
+            android:label="Tips Merawat Kandungan"
+            android:parentActivityName=".Menu" />
+        <activity android:name=".RulAB"
+            android:label="Konsultasi"
+            android:parentActivityName=".Konsultasi"/>
+        <activity android:name=".RulBC"
+            android:label="Konsultasi"
+            android:parentActivityName=".Konsultasi"/>
+        <activity android:name=".RulCD"
+            android:label="Konsultasi"
+            android:parentActivityName=".Konsultasi"></activity>
+
+
+        <activity
+            android:name=".Pen1"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulAB"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulAB" />
+        </activity>
+        <activity
+            android:name=".Pen2"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulAB"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulAB" />
+        </activity>
+        <activity
+            android:name=".Pen5"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulAB"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulAB" />
+        </activity>
+        <activity
+            android:name=".Pen6"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulAB"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulAB" />
+        </activity>
+        <activity
+            android:name=".Rul_ab1"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulAB"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulAB" />
+        </activity>
+        <activity
+            android:name=".Rul_ab2"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulAB"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulAB" />
+        </activity>
+        <activity
+            android:name=".Pen16"
+            android:label="Konsultasi"
+            android:parentActivityName=".Rul_bc5"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Rul_bc5" />
+        </activity>
+        <activity
+            android:name=".Rul_ab3"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulAB"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulAB" />
+        </activity>
+        <activity
+            android:name=".Rul_bc1"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulBC"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulBC" />
+        </activity>
+        <activity
+            android:name=".Rul_bc2"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulBC"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulBC" />
+        </activity>
+        <activity
+            android:name=".Rul_bc3"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulBC"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulBC" />
+        </activity>
+        <activity
+            android:name=".Rul_bc4"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulBC"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulBC" />
+        </activity>
+        <activity
+            android:name=".Rul_bc5"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulBC"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulBC" />
+        </activity>
+        <activity
+            android:name=".Rul_bc6"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulBC"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulBC" />
+        </activity>
+        <activity
+            android:name=".Rul_bc7"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulBC"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulBC" />
+        </activity>
+        <activity
+            android:name=".Rul_bc8"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulBC"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulBC" />
+        </activity>
+        <activity
+            android:name=".Pen12"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulBC"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulBC" />
+        </activity>
+        <activity
+            android:name=".Pen13"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulBC"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulBC" />
+        </activity>
+        <activity
+            android:name=".Pen14"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulBC"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulBC" />
+        </activity>
+        <activity
+            android:name=".Pen21"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulCD"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulCD" />
+        </activity>
+        <activity
+            android:name=".Pen22"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulCD"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulCD" />
+        </activity>
+        <activity
+            android:name=".Pen23"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulCD"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulCD" />
+        </activity>
+        <activity
+            android:name=".Pen26"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulCD"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulCD" />
+        </activity>
+        <activity
+            android:name=".Pen27"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulCD"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulCD" />
+        </activity>
+        <activity
+            android:name=".Pen28"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulCD"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulCD" />
+        </activity>
+        <activity
+            android:name=".Pen29"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulCD"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulCD" />
+        </activity>
+        <activity
+            android:name=".Rul_cd1"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulCD"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulCD" />
+        </activity>
+        <activity
+            android:name=".Rul_cd2"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulCD"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulCD" />
+        </activity>
+        <activity
+            android:name=".Rul_cd3"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulCD"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulCD" />
+        </activity>
+        <activity
+            android:name=".Rul_cd4"
+            android:label="Konsultasi"
+            android:parentActivityName=".RulCD"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RulCD" />
+        </activity>
+    </application>
+
+</manifest>

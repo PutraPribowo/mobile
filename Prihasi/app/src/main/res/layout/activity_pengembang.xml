@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fbfdfd"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/view"
+        >
+
+        <include
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            layout="@layout/toolbar_layout"
+            />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:background="@drawable/men2"
+        android:paddingTop="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:layout_margin="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_marginRight="12dp"
+                            android:background="#000"
+                            android:padding="10dp"
+                            android:layout_width="270dp"
+                            android:layout_height="260dp"
+                            android:src="@drawable/putra"
+                            android:layout_marginEnd="12dp" />
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textColor="#000"
+                            android:textSize="40sp"
+                            android:textStyle="bold"
+                            android:text="Putra Pribowo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:textStyle="bold"
+                android:text="@string/jurusan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:layout_marginStart="10dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:textStyle="bold"
+                android:text="@string/fakultas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:layout_marginStart="10dp" />
+
+            <TextView
+                android:id="@+id/unila"
+                android:drawablePadding="12dp"
+                android:drawableLeft="@drawable/unila1"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:textStyle="bold"
+                android:text="\t Universitas Lampung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:layout_marginStart="10dp"
+                android:drawableStart="@drawable/unila1" />
+
+            <TextView
+                android:drawablePadding="12dp"
+                android:id="@+id/hp"
+                android:drawableLeft="@drawable/hp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:textStyle="bold"
+                android:text="08877051023"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:layout_marginStart="5dp"
+                android:drawableStart="@drawable/hp" />
+
+
+            <TextView
+                android:drawablePadding="12dp"
+                android:id="@+id/gmail"
+                android:drawableLeft="@drawable/gm"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:textStyle="bold"
+                android:text="\t putrapribowo071297@gmail.com"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:layout_marginStart="10dp"
+                android:drawableStart="@drawable/gm" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

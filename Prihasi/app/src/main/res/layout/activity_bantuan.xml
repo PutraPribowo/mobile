@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    android:background="#c5ecf9">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/view"
+        >
+
+        <include
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            layout="@layout/toolbar_layout"
+            />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <ImageView
+                android:layout_width="60sp"
+                android:layout_height="60sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/doctor" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Konsultasi"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="75dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/ban1"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/divider8"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="120dp"
+                android:background="?android:attr/listDivider"
+                tools:background="#000000" />
+
+            <ImageView
+                android:layout_width="60sp"
+                android:layout_height="60sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="130dp"
+                android:src="@drawable/seo1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="130dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Pencarian Penyakit Ibu Hamil"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="195dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/ban2"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/divider6"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="255dp"
+                android:background="?android:attr/listDivider"
+                tools:background="#000000" />
+
+            <ImageView
+                android:layout_width="60sp"
+                android:layout_height="60sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="265dp"
+                android:src="@drawable/apple" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="265dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Tips Melahirkan"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="325dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/ban3"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="380dp"
+                android:background="?android:attr/listDivider"
+                tools:background="#000000" />
+
+            <ImageView
+                android:layout_width="60sp"
+                android:layout_height="60sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="390dp"
+                android:src="@drawable/apple1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="390dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Tips Merawat Bayi"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="460dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/ban4"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="515dp"
+                android:background="?android:attr/listDivider"
+                tools:background="#000000" />
+
+            <ImageView
+                android:layout_width="60sp"
+                android:layout_height="60sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="525dp"
+                android:src="@drawable/apple2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="525dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Tips Merawat Kandungan"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="600dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/ban5"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/divider9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="655dp"
+                android:background="?android:attr/listDivider"
+                tools:background="#000000" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="664dp"
+                android:src="@drawable/book" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="664dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="E-Learning"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="730dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/ban6"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/divider99"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="770dp"
+                android:background="?android:attr/listDivider"
+                tools:background="#000000" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="790dp"
+                android:src="@drawable/man" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="790dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Pengembang"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="860dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/ban7"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/divider999"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="910dp"
+                android:background="?android:attr/listDivider"
+                tools:background="#000000" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="925dp"
+                android:src="@drawable/info" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="925dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Bantuan"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="995dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/ban8"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/divider9999"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="1050dp"
+                android:background="?android:attr/listDivider"
+                tools:background="#000000" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</TableLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c5ecf9">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/view">
+        <include
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            layout="@layout/toolbar_layout" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:id="@+id/aa"
+        android:layout_below="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:id="@+id/iamge"
+                android:layout_gravity="center"
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:src="@drawable/logo"
+                android:layout_below="@id/aa"/>
+
+            <android.support.v7.widget.SearchView
+                android:layout_marginBottom="20dp"
+                android:background="#01befd"
+                android:layout_marginTop="20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/searchView"
+                android:layout_below="@id/iamge"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/my_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:descendantFocusability="blocksDescendants"
+                android:scrollbars="vertical"
+                android:layout_below="@id/searchView"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
